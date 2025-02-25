@@ -17,18 +17,21 @@ export default hopeTheme({
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
-  docsDir: "src",
+  docsDir: "src", 
 
   // 导航栏
   navbar,
-
   // 侧边栏
   sidebar,
- 
+  // lastUpdated: 是否显示页面最后更新时间
+  // contributors: 是否显示页面贡献者
+  // editLink: 是否展示编辑此页链接
   // 页脚  
   footer: "这里是页脚",
   displayFooter: true,
-
+  contributors: false,
+  editLink: false,
+  lastUpdated:true,
   // 博客相关
   blog: {
     description: "一个前端开发者",
