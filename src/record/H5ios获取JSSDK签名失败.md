@@ -1,5 +1,4 @@
 ---
-icon: book
 date: 2025-01-01
 category:
   - vue
